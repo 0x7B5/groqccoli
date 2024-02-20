@@ -1,5 +1,5 @@
 # Groqccoli 
-An unoffical Python client for the Groq API. No API key needed.
+An unofficial Python client for the Groq API. No API key needed.
 
 ## Installation 
 You can install the package with pip and git 
