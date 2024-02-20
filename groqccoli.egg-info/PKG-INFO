@@ -1,9 +1,0 @@
-Metadata-Version: 2.1
-Name: groqccoli
-Version: 0.1.0
-Summary: An unoffical Python client for Groq's inference API.
-Home-page: https://github.com/0x7B5/Groqccoli
-Requires: requests
-Description-Content-Type: text/markdown
-
-# Unoffical-Groq-API
