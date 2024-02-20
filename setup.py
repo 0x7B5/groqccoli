@@ -9,7 +9,7 @@ setup(
     description="An unoffical Python client for Groq's inference API.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/0x7B5/Groqccoli",
+    url="https://github.com/0x7B5/groqccoli",
     packages=find_packages(),
     requires=["requests"],
 )
