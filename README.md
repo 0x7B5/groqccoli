@@ -1,6 +1,12 @@
 # Groqccoli 
 An unoffical Python client for the Groq API. No API key needed.
 
+## Installation 
+You can install the package with pip and git 
+```bash
+pip install git+https://github.com/0x7B5/groqccoli
+```
+
 ## Basic Usage 
 You can import the groqccoli class and use the client like this (it uses mixtral-8x7b-32768 by default). 
 
@@ -66,13 +72,6 @@ print(chat)
 
 
 See /examples for more code samples. 
-
-
-## Installation 
-You can install the package with pip and git 
-```bash
-pip install https://github.com/0x7B5/groqccoli
-```
 
 ## Authors
 
