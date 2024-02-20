@@ -4,7 +4,7 @@ An unoffical Python client for the Groq API. No API key needed.
 ## Basic Usage 
 You can import the groqccoli class and use the client like this (it uses mixtral-8x7b-32768 by default). 
 
-```
+```python
 from groqccoli import Client
 
 groq_client = Client()
@@ -15,7 +15,7 @@ print(chat.content)
 ## Advanced Usage 
 If you want to pass additional parameters or use a different model (right now only mixtral-8x7b-32768 and llama2-70b-4096 are supported) you can. 
 
-```
+```python
 from groqccoli import Client
 
 groq_client = Client()
@@ -33,7 +33,7 @@ print(chat)
 ### Streaming 
 Groqccoli also supports streaming out of the box so you don't have to wait for the full response to process. 
 
-```
+```python
 from groqccoli import Client
 groq_client = Client()
 
@@ -56,7 +56,7 @@ See examples/ for more examples.
 
 ## Installation 
 You can install the package with pip and git 
-```
+```bash
 pip install https://github.com/0x7B5/groqccoli
 ```
 
