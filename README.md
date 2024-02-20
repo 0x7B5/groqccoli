@@ -50,8 +50,22 @@ while True:
     print()
 ```
 
+### Proxies 
+Probably a good idea to use proxies with groqccoli.
 
-See examples/ for more examples. 
+```python
+from groqccoli import Client
+
+groq_client = Client(proxies={"http": 127.0.0, "https": 127.0.0})
+chat = groq_client.create_chat(
+    "What is the meaning of life?",
+    model_id="llama2-70b-4096")
+
+print(chat)
+```
+
+
+See /examples for more code samples. 
 
 
 ## Installation 
